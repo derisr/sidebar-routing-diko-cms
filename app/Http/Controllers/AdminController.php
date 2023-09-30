@@ -37,34 +37,24 @@ class AdminController extends Controller
     }
 
     
-    public function berandaLanding()
-    {
-        return view('pages.Landing.berandaLanding');
-    }
+    // public function berandaLanding()
+    // {
+    //     return view('pages.Landing.berandaLanding');
+    // }
 
-    public function aboutLanding()
-    {
-        return view('pages.Landing.aboutLanding');
-    }
+    // public function aboutLanding()
+    // {
+    //     return view('pages.Landing.aboutLanding');
+    // }
 
-    public function penggunaLanding()
-    {
-        return view('pages.Landing.penggunaLanding');
-    }
+    // public function penggunaLanding()
+    // {
+    //     return view('pages.Landing.penggunaLanding');
+    // }
 
     public function featuresLanding()
     {
         return view('pages.Landing.featuresLanding');
-    }
-
-    public function mottoLanding()
-    {
-        return view('pages.Landing.mottoLanding');
-    }
-
-    public function mockupLanding()
-    {
-        return view('pages.Landing.mockupLanding');
     }
 
     public function reviewLanding()
@@ -72,31 +62,41 @@ class AdminController extends Controller
         return view('pages.Landing.reviewLanding');
     }
 
-    public function mockupsLanding()
-    {
-        return view('pages.Landing.mockupsLanding');
-    }
-
     public function faqLanding()
     {
         return view('pages.Landing.faqLanding');
     }
 
-    public function contactLanding()
-    {
-        return view('pages.Landing.contactLanding');
-    }
+    // public function mottoLanding()
+    // {
+    //     return view('pages.Landing.mottoLanding');
+    // }
+
+    // public function mockupLanding()
+    // {
+    //     return view('pages.Landing.mockupLanding');
+    // }
+
+    // public function mockupsLanding()
+    // {
+    //     return view('pages.Landing.mockupsLanding');
+    // }
+
+    // public function contactLanding()
+    // {
+    //     return view('pages.Landing.contactLanding');
+    // }
 
 
-    public function berandaSp()
-    {
-        return view('pages.SP.berandaSp');
-    }
+    // public function berandaSp()
+    // {
+    //     return view('pages.SP.berandaSp');
+    // }
 
-    public function keunggulanSp()
-    {
-        return view('pages.SP.keunggulanSp');
-    }
+    // public function keunggulanSp()
+    // {
+    //     return view('pages.SP.keunggulanSp');
+    // }
 
     public function featuresSp()
     {
@@ -113,25 +113,35 @@ class AdminController extends Controller
         return view('pages.SP.faqSp');
     }
 
-    public function mockupsSp()
+    public function hargaSp()
     {
-        return view('pages.SP.mockupsSp');
+        return view('pages.SP.hargaSp');
     }
 
-    public function promotionsSp()
+    public function pluginSp()
     {
-        return view('pages.SP.promotionsSp');
+        return view('pages.SP.pluginSp');
     }
 
-    public function blogSp()
-    {
-        return view('pages.SP.blogSp');
-    }
+    // public function mockupsSp()
+    // {
+    //     return view('pages.SP.mockupsSp');
+    // }
 
-    public function contactSp()
-    {
-        return view('pages.SP.contactSp');
-    }
+    // public function promotionsSp()
+    // {
+    //     return view('pages.SP.promotionsSp');
+    // }
+
+    // public function blogSp()
+    // {
+    //     return view('pages.SP.blogSp');
+    // }
+
+    // public function contactSp()
+    // {
+    //     return view('pages.SP.contactSp');
+    // }
 
     
     public function featuresPos()
@@ -139,13 +149,34 @@ class AdminController extends Controller
         return view('pages.POS.featuresPos');
     }
 
-    public function mockupsPos()
+    public function featuresApplicationPos()
     {
-        return view('pages.POS.mockupsPos');
+        return view('pages.POS.featuresApplicationPos');
     }
 
-    public function blogPos()
+    public function faqPos()
     {
-        return view('pages.POS.blogPos');
+        return view('pages.POS.faqPos');
     }
+
+    public function hargaPos()
+    {
+        return view('pages.POS.hargaPos');
+    }
+
+    public function pluginPos()
+    {
+        return view('pages.POS.pluginPos');
+    }
+
+
+    // public function mockupsPos()
+    // {
+    //     return view('pages.POS.mockupsPos');
+    // }
+
+    // public function blogPos()
+    // {
+    //     return view('pages.POS.blogPos');
+    // }
 }
